@@ -1,15 +1,31 @@
-body {
-  background: blue;
-  color: white; }
+.top-nav {
+  background-color: #eab662;
+  height: 170px;
+  color: green;
+  margin-bottom: 20px; }
 
 .logo {
-  size: 150px; }
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 20px; }
 
-img {
-  display: inline-flex; }
+.top-nav-items {
+  float: right;
+  line-height: 60px;
+  margin-left: 40px;
+  font-size: 1.75em; }
+
+a {
+  display: inline-block;
+  height: 60px;
+  padding: 0 20px;
+  color: #af0000;
+  font-weight: 50;
+  text-decoration: none; }
 
 .column {
-  float: left;
+  float: right;
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px; }

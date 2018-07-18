@@ -1,0 +1,28 @@
+.top-nav {
+    background-color: $bgcolor;
+    height: 170px;
+    color: $nav-text-color;
+    margin-bottom: 20px;
+    }
+    .logo {
+      float: left;
+      height: 60px;
+      line-height: 60px;
+      margin-left: 20px;   
+    }  
+    .top-nav-items {
+      float: right;
+      line-height: 60px;
+      margin-left: 40px;
+      font-size: 1.75em;
+    }
+      a {
+        display: inline-block;
+        height: 60px;
+        padding: 0 20px;
+        color: $nav-link-color;
+        font-weight: 50;
+        text-decoration: none;
+      }
+    
+  
